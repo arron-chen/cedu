@@ -1,23 +1,22 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <c-header></c-header>
     <router-view/>
+    <c-footer></c-footer>
   </div>
 </template>
 
 <script>
+  import cHeader from './components/header'
+  import cFooter from './components/footer'
 export default {
-  name: 'App'
+  name: 'App',
+  components:{
+    cHeader,cFooter
+  }
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="less">
+  @import './assets/css/main.less';
 </style>
