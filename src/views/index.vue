@@ -50,6 +50,8 @@
     methods:{
       handleClickregClose(){
         this.showReg=false;
+
+
       },
       handleClickOnline(){
 
