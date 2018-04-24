@@ -17,11 +17,6 @@
 
   .contDiv{
     width:100%;
-    height:200px;
-    margin:10px 0;
-  }
-  .Cont{
-    border:1px solid #efefef;
-    height:190px;
+
   }
 </style>

@@ -13,6 +13,11 @@
         <li><a>日本</a></li>
       </ul>
     </div>
+    <div class="city">
+      <div class="cityCont commonWidth">
+
+      </div>
+    </div>
 
   </div>
 </template>
@@ -42,6 +47,12 @@
     height:48px;
     width:100%;
     background: #1bbc9b;
+  }
+  .city{
+    width:100%;
+    height:70px;
+    background: #f8f8f8;
+    border-bottom: #eaeaea 1px solid;
   }
   .headerlist{
     list-style: none;
