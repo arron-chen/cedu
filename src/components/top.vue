@@ -1,7 +1,10 @@
 <template>
     <div class="top">
         <div class="topCont commonWidth">
+          <div class="topleft">
 
+          </div>
+          <div class="topright"></div>
         </div>
     </div>
 </template>
