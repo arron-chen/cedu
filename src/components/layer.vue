@@ -47,7 +47,7 @@
   }
   .close_icon{
     position: absolute;
-    background: url('../../static/footer_layer_clone.png') no-repeat center center;
+    background: url('../../static/layer/footer_layer_clone.png') no-repeat center center;
     background-size: 100% 100%;
     width: 16px;
     height: 16px;
@@ -62,7 +62,7 @@
     height: 240px;
     min-width: 1000px;
     margin: 0 auto;
-    background: url('../../static/footer.png') no-repeat center bottom;
+    background: url('../../static/layer/footer.png') no-repeat center bottom;
     background-size: auto 100%;
   }
 

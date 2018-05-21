@@ -6,19 +6,19 @@
     <div class="headerNav">
       <ul class="headerlist commonWidth">
         <li><a>首页</a></li>
-        <li><a>中国</a></li>
-        <li><a>中国研究生</a></li>
-        <li><a>水木大学</a></li>
         <li><a>美国</a></li>
+        <li><a>加拿大</a></li>
+        <li><a>澳洲</a></li>
         <li><a>英国</a></li>
-        <li><a>日本</a></li>
+        <li><a>新西兰</a></li>
+        <li><a>荷兰</a></li>
+        <li><a>法国</a></li>
+        <li><a>德国</a></li>
+        <li><a>新加坡</a></li>
+        <li><a>更多</a></li>
+
       </ul>
     </div>
-    <div class="city">
-      <div class="cityCont commonWidth">
-      </div>
-    </div>
-
   </div>
 </template>
 <script>
@@ -71,7 +71,7 @@
     cursor: pointer;
   }
   .headerlist li:hover{
-    background: #047d64;
+    background: #ffffff;
     color: #fff !important;
   }
   .headerlist li a{
@@ -81,4 +81,8 @@
     float: left;
     font-size: 16px;
   }
+  .headerlist li:hover a{
+     color: #417af8;
+   }
+
 </style>
