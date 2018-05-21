@@ -1,6 +1,7 @@
 <template>
   <div class="header">
     <top></top>
+    <div class="cbanner"></div>
     <logo></logo>
     <div class="headerNav">
       <ul class="headerlist commonWidth">
@@ -15,7 +16,6 @@
     </div>
     <div class="city">
       <div class="cityCont commonWidth">
-
       </div>
     </div>
 
@@ -40,13 +40,19 @@
     width:1000px;
     margin:0 auto;
   }
+  .cbanner{
+    width:100%;
+    height:600px;
+    background: url('../../static/web_bg.png')no-repeat;
+    background-size: 100% 100%;
+  }
   .header{
     width:100%;
   }
   .headerNav{
     height:48px;
     width:100%;
-    background: #1bbc9b;
+    background: #417af8;
   }
   .city{
     width:100%;

@@ -2,11 +2,11 @@
   <div class="top">
     <div class="topCont commonWidth">
     <div class="topleft">
-      <span>新东方前途出国留学，您理想的留学伙伴！</span>
-      <a>登录</a>|<a>注册</a>
+      <span>天行者留学  SKYWALKER YOUR DREAM MAKER！</span>
+
     </div>
     <div class="topright">
-      <a>微信</a>|<a>关于我们</a>
+      <a>登录</a>|<a>注册</a>
     </div>
     </div>
   </div>
@@ -27,12 +27,16 @@
   }
   .top{
     line-height: 34px;
-    background: #f8f8f8;
-    border-bottom: #dddddd 1px solid;
+   /* background: #f8f8f8;*/
+    /*border-bottom: #dddddd 1px solid;*/
     overflow: visible;
     height: 34px;
     z-index: 10;
     position: relative;
+  }
+  .topCont{
+    height:100%;
+    background: linear-gradient(to bottom,#bebfbf,#fbfbfb);
   }
   .topleft{
     float:left;

@@ -283,7 +283,7 @@
     top: 150px;
     left: 6px;
     padding: 0px;
-    background-image: url('../../static/reg_bg_0806.jpg');
+    background-image: url('../../static/form.png');
     z-index: 2147483647;
   }
   .reg-close{
@@ -312,7 +312,7 @@
     position: relative;
     width: 100%;
     height: 100%;
-    background: url("../../static/2017102400.png");
+    background: url("../../static/layer.png");
   }
   .consult-online{
     position: absolute;
@@ -344,7 +344,7 @@
     right: 5px;
     width: 185px;
     height: 420px;
-    background-image: url('../../static/vb2.png');
+    background-image: url('../../static/right.png');
   }
   .consult-close{
     background: url('../../static/close11.png') center center no-repeat;
