@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <c-header></c-header>
+    <c-header class="cheader"></c-header>
     <router-view/>
-    <c-footer></c-footer>
-    <layer></layer>
+    <c-footer class="cfooter"></c-footer>
+    <layer class="cbottom"></layer>
   </div>
 </template>
 

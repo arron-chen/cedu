@@ -12,24 +12,6 @@
 <script>
   export default {}
 </script>
-<style scoped>
-  .commonWidth{
-    width:1000px;
-    margin:0 auto;
-  }
-  .footer{
-    width:100%;
-    height:120px;
-    background: #e5e5e5;
-    padding-top:20px;padding-bottom:20px;
-  }
-  .footerCont{
-      text-align: center;
-  }
-  .line1{
-    line-height:50px;
-  }
-  .line1 span{
-    margin:0 10px;
-  }
+<style lang="less">
+  @import "../assets/css/components/footer.less";
 </style>
