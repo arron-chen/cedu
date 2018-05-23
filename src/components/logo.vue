@@ -1,7 +1,7 @@
 <template>
     <div class="logoDiv">
       <div class="logoCont commonWidth">
-        <a><img src="../../static/header/logo.png"></a>
+        <a><!--<img src="../../static/header/logo.png">--><cdn-img src="logo.png"></cdn-img></a>
         <div class="logoright">
           <ul>
             <li class="lo1"><a>研究生</a></li>
@@ -13,6 +13,11 @@
     </div>
 </template>
 <script>
+  import Vue from 'vue';
+  Vue.component('cdn-img', {
+    props: ['src'],
+    template: `<img :src="'http://p95qjfixr.bkt.clouddn.com/' + src" /> `
+  })
   export default {
 
   }
@@ -52,12 +57,12 @@
     cursor: pointer;
   }
   .logoright ul li.lo1{
-      background: url('../../static/content/csj_lobg1.png') left center no-repeat;
+      background: url('http://p95qjfixr.bkt.clouddn.com/content/csj_lobg1.png') left center no-repeat;
     }
   .logoright ul li.lo2{
-    background: url('../../static/content/csj_lobg2.png') left center no-repeat;
+    background: url('http://p95qjfixr.bkt.clouddn.com/content/csj_lobg2.png') left center no-repeat;
   }
   .logoright ul li.lo3{
-    background: url('../../static/content/csj_lobg3.png') left center no-repeat;
+    background: url('http://p95qjfixr.bkt.clouddn.com/content/csj_lobg3.png') left center no-repeat;
   }
 </style>

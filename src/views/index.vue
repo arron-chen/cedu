@@ -7,7 +7,8 @@
                 <div class="tips_left_title"><span class="fl">精彩视频</span><span class="fr">更多>></span></div>
                 <div class="tips_item">
                   <div class="tips_item_img fl">
-                    <img src="../../static/banner1.png">
+                   <!-- <img src="http://p95qjfixr.bkt.clouddn.com/banner1.png">-->
+                    <cdn-img src="banner1.png"></cdn-img>
                   </div>
                   <div class="tips_item_text fr">
                       <h3>第七期 深夜特别节目|</h3>
@@ -20,7 +21,7 @@
                 </div>
                 <div class="tips_item">
                   <div class="tips_item_img fl">
-                    <img src="../../static/banner2.png">
+                    <cdn-img src="banner2.png"></cdn-img>
                   </div>
                   <div class="tips_item_text fr">
                     <h3>第六期 深夜特别节目|</h3>
@@ -52,10 +53,10 @@
           <section class="product">
             <div class="product-title"><h2>留学产品</h2></div>
             <ul class="product-list">
-              <li><a><img src="../../static/product1.png"></a></li>
-              <li><a><img src="../../static/product1.png"></a></li>
-              <li><a><img src="../../static/product1.png"></a></li>
-              <li><a><img src="../../static/product1.png"></a></li>
+              <li><a><!--<img src="http://p95qjfixr.bkt.clouddn.com/product1.png">--><cdn-img src="product1.png"></cdn-img></a></li>
+              <li><a><!--<img src="http://p95qjfixr.bkt.clouddn.com/product1.png">--><cdn-img src="product1.png"></cdn-img></a></li>
+              <li><a><!--<img src=".http://p95qjfixr.bkt.clouddn.com/product1.png">--><cdn-img src="product1.png"></cdn-img></a></li>
+              <li><a><!--<img src="http://p95qjfixr.bkt.clouddn.com/product1.png">--><cdn-img src="product1.png"></cdn-img></a></li>
             </ul>
           </section>
          <!-- <section class="advertisement"></section>-->
@@ -140,7 +141,12 @@
     </div>
 </template>
 <script>
-  import cont from '@/components/cont.vue'
+  import cont from '@/components/cont.vue';
+  import Vue from 'vue';
+  Vue.component('cdn-img', {
+    props: ['src'],
+    template: `<img :src="'http://p95qjfixr.bkt.clouddn.com/' + src" /> `
+  })
   export default {
     data(){
       return {
@@ -272,7 +278,7 @@
     margin:30px 0;
   }
   .product-title{
-    background:url("../../static/content/gu_tb_lxcp.png") no-repeat left 45px  ;
+    background:url("http://p95qjfixr.bkt.clouddn.com/content/gu_tb_lxcp.png") no-repeat left 45px  ;
     padding:40px 0 10px 40px;
     border-top:1px solid #417af8;
   }
@@ -308,7 +314,7 @@
   .advertisement{
     width:100%;
     height:90px;
-    background: url("../../static/content/0f000DYeKibgy3ix3jyY20.jpg");
+    background: url("http://p95qjfixr.bkt.clouddn.com/content/0f000DYeKibgy3ix3jyY20.jpg");
   }
   .info{
     width:100%;
@@ -316,7 +322,7 @@
     margin:10px 0;
   }
   .info-title{
-    background:url("../../static/content/gu_tb_lxcp.png") no-repeat left 45px;
+    background:url("http://p95qjfixr.bkt.clouddn.com/content/gu_tb_lxcp.png") no-repeat left 45px;
     padding:40px 0 20px 40px;
     border-top:1px solid #417af8;
   }
@@ -392,7 +398,7 @@
     font-size: 14px;
     font-family: "宋体";
     color: #333333;
-    background: url('../../static/content/gu_dian_yellow.jpg') no-repeat left center;
+    background: url('http://p95qjfixr.bkt.clouddn.com/content/gu_dian_yellow.jpg') no-repeat left center;
     padding-left: 15px;
   }
   .info-cont-list ul li a{
@@ -405,13 +411,13 @@
     top: 150px;
     left: 6px;
     padding: 0px;
-    background: url('../../static/form.png') no-repeat center center;
+    background: url('http://p95qjfixr.bkt.clouddn.com/form.png') no-repeat center center;
     background-size: 100% 100%;
 
     z-index: 2147483647;
   }
   .reg-close{
-    background: url('../../static/layer/close11.png') center center no-repeat;
+    background: url('http://p95qjfixr.bkt.clouddn.com/layer/close11.png') center center no-repeat;
     display: block;
     width: 20px;
     height: 20px;
@@ -436,7 +442,7 @@
     position: relative;
     width: 100%;
     height: 100%;
-    background: url("../../static/layer.png") no-repeat center center;
+    background: url("http://p95qjfixr.bkt.clouddn.com/layer.png") no-repeat center center;
     background-size: 100% 100%;
   }
   .consult-online{
@@ -467,12 +473,12 @@
     right: 5px;
     width: 150px;
     height: 400px;
-    background: url('../../static/right.png') no-repeat center center;
+    background: url('http://p95qjfixr.bkt.clouddn.com/right.png') no-repeat center center;
     background-size: 100% 100%;
 
   }
   .consult-close{
-    background: url('../../static/layer/close11.png') center center no-repeat;
+    background: url('http://p95qjfixr.bkt.clouddn.com/layer/close11.png') center center no-repeat;
     display: block;
     width: 20px;
     height: 20px;

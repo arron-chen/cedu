@@ -43,7 +43,7 @@
   .cbanner{
     width:100%;
     height:600px;
-    background: url('../../static/web_bg.png')no-repeat;
+    background: url('http://p95qjfixr.bkt.clouddn.com/web_bg.jpg')no-repeat;
     background-size: 100% 100%;
   }
   .header{
