@@ -36,5 +36,5 @@
   }
 </script>
 <style lang="less">
-  @import '../assets/css/components/header.less';
+  @import '../assets/css/components/headerS.less';
 </style>
