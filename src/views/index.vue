@@ -181,7 +181,7 @@
       </div>
 
     <c-footer class="cfooter"></c-footer>
-    <layer class="cbottom"></layer>
+    <!--<layer class="cbottom"></layer>-->
   </div>
 </template>
 <script>

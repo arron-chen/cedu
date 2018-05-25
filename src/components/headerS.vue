@@ -1,7 +1,7 @@
 <template>
   <div>
     <top></top>
-    <div class="cbanner"></div>
+    <div class="cbannerS"></div>
     <logo></logo>
     <div class="headerNav">
       <ul class="headerlist">
