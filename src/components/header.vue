@@ -8,7 +8,7 @@
     <div class="headerNav">
       <ul class="headerlist">
         <router-link to="/" tag="li"><a>首页</a></router-link>
-        <router-link to="/america" tag="li"><a>美国</a></router-link>
+        <li><a>美国</a></li>
         <li><a>加拿大</a></li>
         <li><a>澳洲</a></li>
         <li><a>英国</a></li>

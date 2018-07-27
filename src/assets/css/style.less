@@ -119,6 +119,7 @@
   height:380px;
 }
 .tips_right_list li{
+  cursor: pointer;
   color:#808080;
   font-size:15px;
   height:38px ;
@@ -126,7 +127,9 @@
   border-bottom:1px dashed #7f7f7f;
 }
 .tips_list_left{
-  margin:0 100px 0 70px;
+  margin:0 0 0 70px;
+  width: 170px;
+  display: inline-block;
 }
 .product{
   width:100%;
@@ -143,29 +146,37 @@
   font-weight: 400;font-family: "微软雅黑";
 }
 .product-list{
+  width:1000px;
   list-style:none;
   padding-top:10px;
   height:180px;
+  overflow:auto ;
 }
 .product-list li{
   width:230px;height:180px;
   float: left;
   margin-right: 20px;
   margin-bottom: 20px;
+  position: relative;
+  img{
+    width:100%;
+    height:100%;
+    border:1px solid transparent;
+    &:hover{
+      border: 1px solid #f9a401;
+      cursor: pointer;
+    }
+  }
+  div{
+    text-align: center;
+    position:absolute;
+    bottom:10px;
+    left:20px;
+    color:#fff;
+    font-size:18px;
+  }
 }
-.product-list li a img{
-  width:100%;
-  height:100%;
-  border:1px solid transparent;
-}
-.product-list li a img:hover{
-  border: 1px solid #f9a401;
-  cursor: pointer;
-}
-.product-list li a{
-  display: block;
-  border: 1px solid #fff;
-}
+
 .advertisement{
   width:100%;
   height:90px;
@@ -208,7 +219,7 @@
 }
 .info-cont{
   float:right;
-  width:850px;
+  width:980px;
   height:300px;
   /* background-color: aliceblue;;*/
 }
@@ -219,7 +230,7 @@
   color: #417af8 !important;
 }
 .info-cont-list{
-  width: 240px;
+  width: 285px;
   height:300px;
   overflow: hidden;
   margin-left: 40px;
