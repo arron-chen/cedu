@@ -1,6 +1,6 @@
-# cedu
+# 天行者留学官网cedu
 
-> A Vue.js project
+> www.mytianxingzhe.com
 
 ## Build Setup
 
